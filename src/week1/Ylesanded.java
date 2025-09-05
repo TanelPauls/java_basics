@@ -1,8 +1,10 @@
+package week1;
+
 import java.util.Scanner;
 
 public class Ylesanded {
     public static void main(String[] args) {
-        ylesanne01();
+        /*ylesanne01();
         ylesanne02();
         ylesanne03();
         ylesanne04();
@@ -12,6 +14,11 @@ public class Ylesanded {
         ylesanne08();
         ylesanne09();
         ylesanne10();
+        ylesanne11();
+        ylesanne12();
+        ylesanne14();
+        ylesanne15();*/
+        ylesanne16();
 
     }
     public static void vaherida() {
@@ -117,5 +124,87 @@ public class Ylesanded {
         vaherida();
         System.out.println("Circumference of the circle: "+(2*Math.PI*x));
     }
+    public static void ylesanne11() {
+        vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Type a number: ");
+        int x=sc.nextInt();
+        System.out.print("Type another number: ");
+        int y=sc.nextInt();
+        vaherida();
+        System.out.println("The bigger number of the two numbers given was: "+ Math.max(x,y));
+    }
+    public static void ylesanne12() {
+        vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
 
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Type your name: ");
+        String name1=sc.next();
+        System.out.print("Type your age: ");
+        int age1=sc.nextInt();
+        vaherida();
+        System.out.print("Type your name: ");
+        String name2=sc.next();
+        System.out.print("Type your age: ");
+        int age2=sc.nextInt();
+        vaherida();
+        System.out.println(name1+" and "+name2+" are "+(age1+age2)+" years old in total.");
+    }
+    public static void ylesanne14() {
+        vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Type a number: ");
+        int x=sc.nextInt();
+        vaherida();
+        if(x>0){
+            System.out.println("The number is positive.");
+        } else if(x<0){
+            System.out.println("The number is not positive.");
+        }
+    }
+    public static void ylesanne15() {
+        vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("How old are you: ");
+        int x=sc.nextInt();
+        vaherida();
+        if(x<18){
+            System.out.println("You have not reached the age of majority yet!");
+        } else {
+            System.out.println("You have reached the age of majority!");
+        }
+    }
+    public static void ylesanne16() {
+        vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Type a number: ");
+        int x=sc.nextInt();
+        vaherida();
+        if(x%2==0){
+            System.out.println("Number "+x+" is even.");
+        } else {
+            System.out.println("Number "+x+" is odd.");
+        }
+    }
+    public static void ylesanne17() {
+        /*vaherida();
+        System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
+
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Type the first number: ");
+        int  x=sc.nextInt();
+        System.out.print("Type the second number: ");
+        int y=sc.nextInt();
+        vaherida();
+        System.out.print("Type your name: ");*/
+
+    }
 }
