@@ -12,10 +12,7 @@ public class Apartment {
     }
     //Exercise 87.1
     public boolean larger(Apartment otherApartment){
-        if(this.squareMeters > otherApartment.squareMeters){
-            return true;
-        }
-        return false;
+        return this.squareMeters > otherApartment.squareMeters;
     }
     //Exercise 87.2
     public int priceDifference(Apartment otherApartment){
@@ -23,10 +20,7 @@ public class Apartment {
     }
     //Exercise 87.3
     public boolean moreExpensiveThan(Apartment otherApartment){
-        if(this.pricePerSquareMeter*this.squareMeters>otherApartment.pricePerSquareMeter*otherApartment.squareMeters){
-            return true;
-        }
-        return false;
+        return this.pricePerSquareMeter * this.squareMeters > otherApartment.pricePerSquareMeter * otherApartment.squareMeters;
     }
 
 
