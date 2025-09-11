@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Ylesanded" type="Application" factoryName="Application" nameIsGenerated="true">
-    <option name="MAIN_CLASS_NAME" value="week1.Ylesanded" />
+    <option name="MAIN_CLASS_NAME" value="week5.week1.Ylesanded" />
     <module name="java_basics" />
     <method v="2">
       <option name="Make" enabled="true" />

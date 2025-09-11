@@ -1,4 +1,4 @@
-package week5;
+package week5.Ex87;
 
 public class Apartment {
     private int rooms;
