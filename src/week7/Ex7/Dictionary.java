@@ -1,5 +1,6 @@
 package week7.Ex7;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Dictionary {
@@ -10,7 +11,6 @@ public class Dictionary {
     }
 
     public void add(String string1, String string2) {
-
         if(this.collection.containsKey(string1)) {
             System.out.println("This word is already translated");
         } else {
@@ -26,6 +26,19 @@ public class Dictionary {
         }
     }
 
-    /*public void add(String word, String translation){*/
+    public int amountOfWords(){
+        return this.collection.size();
+    }
+
+    public ArrayList<String> translationList() {
+        ArrayList<String> list = new ArrayList<>();
+
+        for (String key : this.collection.keySet()) {
+            String value = this.collection.get(key);
+            list.add(key + " = " + value);
+        }
+
+        return list;
+    }
 
 }
