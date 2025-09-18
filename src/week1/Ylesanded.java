@@ -15,10 +15,11 @@ public class Ylesanded {
         ylesanne09();
         ylesanne10();
         ylesanne11();
-        ylesanne12();
+        ylesanne12();*/
         ylesanne14();
-        ylesanne15();*/
+        /*ylesanne15();*/
         ylesanne16();
+        /*ylesanne17();*/
 
     }
     public static void vaherida() {
@@ -195,7 +196,7 @@ public class Ylesanded {
         }
     }
     public static void ylesanne17() {
-        /*vaherida();
+        vaherida();
         System.out.println(new Object() {}.getClass().getEnclosingMethod().getName());
 
         Scanner sc=new Scanner(System.in);
@@ -204,7 +205,15 @@ public class Ylesanded {
         System.out.print("Type the second number: ");
         int y=sc.nextInt();
         vaherida();
-        System.out.print("Type your name: ");*/
+        if(x==y){
+            System.out.print("The numbers are equal!");
+        } else {
+            if(x>y){
+                System.out.print("Greater number: "+x);
+            } else {
+                System.out.print("Greater number: "+y);
+            }
+        }
 
     }
 }

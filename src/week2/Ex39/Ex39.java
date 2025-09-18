@@ -1,4 +1,4 @@
-package week2;
+package week2.Ex39;
 
 public class Ex39{
     public static void printStars(int amount) {
@@ -31,11 +31,14 @@ public class Ex39{
         }
     }
     public static void main(String[] args) {
-        /*printStars(5);
-        printStars(3);*/
+        printStars(5);
+        printStars(3);
         printStars(9);
+        System.out.println();
         printSquare(4);
+        System.out.println();
         printRectangle(17,3);
+        System.out.println();
         printTriangle(4);
     }
 }
