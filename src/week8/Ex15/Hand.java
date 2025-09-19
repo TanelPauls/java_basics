@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Hand implements Comparable<Hand> {
-    private ArrayList<Card> cardsInHand = new ArrayList<Card>();
+    private ArrayList<Card> cardsInHand = new ArrayList<Card>(); //this one initializes new array, no nullpointerexception
+    /*private ArrayList<Card> cards;*/
 
     public void add(Card card){
         this.cardsInHand.add(card);
