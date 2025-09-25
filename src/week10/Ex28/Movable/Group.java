@@ -25,7 +25,7 @@ public class Group implements Movable {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (Movable m : members) {
-            sb.append(m).append("\n");  // works for both Organism and Group
+            sb.append(m).append("\n");
         }
         return sb.toString();
     }
