@@ -1,6 +1,5 @@
 package week10.Ex29;
 
-import week10.Ex28.Movable.Movable;
 import week10.Ex29.People.Person;
 import week10.Ex29.People.Student;
 import week10.Ex29.People.Teacher;
